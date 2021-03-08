@@ -1,0 +1,186 @@
+/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- Hello, my name is Olivia Otten and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography March 2021 ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(images/IMG_0125.JPG)
+      center center fixed no-repeat; 
+    background-size: width="1500" height="800" 
+    font-family: "AvantGarde", sans-serif;
+	
+}
+
+.center {
+    width: 700px;
+	padding: 0%;
+    margin: 100px auto;
+ 	background: rgba(256, 256, 256, .55); /*this uses opacity of 75% for the background color*/
+
+	text-align: center;
+}
+
+   
+#logo {
+    margin-bottom: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "MrsEaves", courier;
+	font-size: 2em;
+    margin: 0px auto 5px auto;
+    color: #333;
+}
+
+
+p {
+	font-family: "MrsEaves", courier;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIN ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+    
+* {margin: 0; padding: 0;}
+
+nav {
+  margin: 50px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: right
+    ;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 10px;
+}
+
+li:first-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #e4a0b7;
+  font: 20px/1 "AvantGarde", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #333;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
