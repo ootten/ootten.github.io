@@ -22,7 +22,7 @@ h1 {
     font-family: sutro;
     font-weight: 300; 
     font-style: normal;
-    color: rgba(255, 255, 255, .70);
+    color: rgb(255, 255, 255);
     background: rgb(239, 142, 52);
     padding: .3rem 2rem 1.3rem 1rem;
     font-size: 1.5em;
@@ -82,7 +82,7 @@ h1 {
     font-family: poppins, sans-serif; 
     font-weight: 400; 
     font-style: normal;
-    color: rgba(255, 255, 255, .70);
+    color: rgba(255, 255, 255);
     background-color: rgb(239, 142, 52);
     padding: 1rem 0rem 1rem 2rem;
  }
