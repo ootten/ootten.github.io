@@ -1,0 +1,21 @@
+/*CSS DOCUMENT*/
+
+div.container {
+    }
+
+header {
+    background: #888888;
+}
+
+article {
+    background: #aaaaaa;
+}
+
+aside {
+    background: #cccccc;
+}
+
+footer {
+    background: #eeeeee;
+}
+
