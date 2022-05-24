@@ -6,7 +6,7 @@ body {
     padding: 1rem;
     background-color: #1e1e1e; 
     line-height: 140%;
-    font-family: alfarn-2, sans-serif;
+    font-family: Helvetica, san-serif;
     font-weight: 500;
     font-style: normal;
 } 
@@ -77,6 +77,7 @@ p.description {
 
 p.price {
 	color: #FFC0CB;
+	font-family: Helvetica, san-serif;
 }
 
 nav ul li {
